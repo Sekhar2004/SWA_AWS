@@ -1,19 +1,13 @@
-Project Name: Serverless Web Application on AWS
+This project is a serverless web application that greets users and tracks the number of views using AWS services like **Lambda** and **DynamoDB**. The app is designed to showcase the power of AWS's serverless infrastructure while keeping the code minimal and easy to understand.
 
-Project Description:
+## Features
 
-In this project, you will build a serverless web application using AWS Lambda, API Gateway, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table through a RESTful API.
+- Users can input their name to receive a personalized greeting.
+- Tracks and displays the number of views of the page.
+- The view count is stored and updated using AWS Lambda and DynamoDB.
 
-Steps to Build the Project:
+## Technologies Used
 
-Create a DynamoDB table to store the items.
-Build a Lambda function to handle the CRUD operations on the DynamoDB table.
-Create an API Gateway RESTful API to interact with the Lambda function.
-Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript).
-Create a CloudFront distribution to serve the S3-hosted static files with low latency.
-
-Expected Outcome:
-
-Upon completing the project, you will have a working serverless web application hosted on AWS. They will have hands-on experience building a serverless application using AWS Lambda, API Gateway, DynamoDB, S3, CloudFront, and Cognito. Additionally, they will have experience working with AWS services and integrating them to build a complete solution.
-
-This project will help you improve your skills in cloud computing, serverless architecture, and AWS services.
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: AWS Lambda (Python), DynamoDB
+- **API**: AWS Lambda URL
