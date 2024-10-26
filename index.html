@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>A Monk in Cloud</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>Greeting App</h1>
+    <header>
+        <h1>Greeting App</h1>
+        <button id="theme-toggle">Toggle Dark Mode</button>
         <div class="counter-number">Views</div>
-	</header>
-	<main>
-		<form>
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name">
-			<button id="submit-btn">Submit</button>
-		</form>
-		<p id="greeting"></p>
-	</main>
-	<script src="script.js"></script>
+    </header>
+
+    <main>
+        <form id="greeting-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <button id="submit-btn">Submit</button>
+        </form>
+        <p id="greeting"></p>
+        <p id="daily-greeting"></p>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
- 
